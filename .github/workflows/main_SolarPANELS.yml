@@ -32,5 +32,5 @@ jobs:
       with:
         app-name: 'SolarPANELS'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a3615ad2841d4accab846354e50065dc }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_097321d4ba6844f1a688f23bbfe7ffec }}
         package: ${{env.DOTNET_ROOT}}/myapp 
